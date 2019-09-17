@@ -5,7 +5,9 @@
 
 class EmailParser
 
-attr_accessor 
-def initialize 
+attr_accessor :parse
+def initialize(parse)
+  self.split
+  
 end 
 end
