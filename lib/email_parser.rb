@@ -8,7 +8,7 @@ class EmailParser
 attr_accessor :name, :csv_emails
 
 def initialize(csv_emails)
-  self.split
+  @csv_emails = csv_emails 
   
 end 
 end
