@@ -5,7 +5,7 @@
 
 class EmailParser
 
-attr_accessor :parse
+attr_accessor :csv_emails
 
 def initialize(parse)
   self.split
