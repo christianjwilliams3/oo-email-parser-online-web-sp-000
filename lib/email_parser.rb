@@ -12,5 +12,5 @@ def initialize(csv_emails)
 end 
 
 def parse 
-  csv_emails.split.collect do |addresses|
+  csv_emails.split.collect do |address|
 end
