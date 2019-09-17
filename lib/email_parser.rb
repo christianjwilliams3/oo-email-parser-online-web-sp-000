@@ -5,9 +5,9 @@
 
 class EmailParser
 
-attr_accessor :csv_emails
+attr_accessor :name, :csv_emails
 
-def initialize(parse)
+def initialize(csv_emails)
   self.split
   
 end 
